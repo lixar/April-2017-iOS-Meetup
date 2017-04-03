@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.0.1)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - Gloss (1.0.0)
+  - Keys (1.0.0)
+  - Log (1.0)
+  - Nimble (6.1.0)
+  - Particle-SDK (0.7.0):
+    - Particle-SDK/Helpers (= 0.7.0)
+    - Particle-SDK/SDK (= 0.7.0)
+  - Particle-SDK/Helpers (0.7.0)
+  - Particle-SDK/SDK (0.7.0):
+    - AFNetworking (~> 3.0)
+    - Particle-SDK/Helpers
+  - Quick (1.1.0)
+  - SwiftLint (0.18.1)
+  - SwiftyHue (0.2.4):
+    - SwiftyHue/Base (= 0.2.4)
+    - SwiftyHue/BridgeServices (= 0.2.4)
+  - SwiftyHue/Base (0.2.4):
+    - Alamofire (~> 4.0.1)
+    - Gloss (~> 1.0.0)
+    - Log (~> 1.0)
+  - SwiftyHue/BridgeServices (0.2.4):
+    - Alamofire (~> 4.0.1)
+    - CocoaAsyncSocket (~> 7.4.3)
+    - Gloss (~> 1.0.0)
+    - Log (~> 1.0)
+
+DEPENDENCIES:
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - Nimble (= 6.1.0)
+  - Particle-SDK
+  - Quick (= 1.1.0)
+  - SwiftLint (= 0.18.1)
+  - SwiftyHue (= 0.2.4)
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  Gloss: 014789e9e69ca18f127eacca999f4c9b0bff6d58
+  Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
+  Log: 5e368c9528db07517d18d2d04ff5fe2b6f5a1e21
+  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
+  Particle-SDK: d08e4a9e42c927bd997cd4817e5a01894ace4187
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
+  SwiftyHue: 2e2f71937614c301100ce150cc479aafdb1338ee
+
+PODFILE CHECKSUM: 17f9ff2b2951c75fbf6e56ceea441e38419eee25
+
+COCOAPODS: 1.2.0

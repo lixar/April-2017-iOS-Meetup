@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="BridgeFinderTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="BridgeFinderTableViewCell" id="KGk-i7-Jjw" customClass="BridgeFinderTableViewCell" customModule="iOS_Meetup_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bridgeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="jp0-lC-eHV">
+                        <rect key="frame" x="16" y="8" width="48" height="48"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="OO2-d3-s2G"/>
+                            <constraint firstAttribute="width" constant="48" id="Zfb-cq-8Dm"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Rzd-Qh-blh">
+                        <rect key="frame" x="74" y="8" width="163.5" height="38.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Hue Bridge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QK-he-2aD" userLabel="Label - Name">
+                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Philips Hue Bridge 2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ktu-6W-epM" userLabel="Label - Model">
+                                <rect key="frame" x="0.0" y="20.5" width="163.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jp0-lC-eHV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="1pk-8f-UNd"/>
+                    <constraint firstItem="jp0-lC-eHV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="Iio-Wg-yAG"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Rzd-Qh-blh" secondAttribute="trailing" priority="999" constant="8" id="Ln5-52-INZ"/>
+                    <constraint firstItem="Rzd-Qh-blh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="PwN-qn-byG"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="jp0-lC-eHV" secondAttribute="bottom" constant="8" id="YNR-HB-phH"/>
+                    <constraint firstItem="Rzd-Qh-blh" firstAttribute="leading" secondItem="jp0-lC-eHV" secondAttribute="trailing" constant="10" id="iDY-gY-omn"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Rzd-Qh-blh" secondAttribute="bottom" constant="8" id="kWC-zs-ZNh"/>
+                </constraints>
+                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+            </tableViewCellContentView>
+            <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+            <connections>
+                <outlet property="modelLabel" destination="Ktu-6W-epM" id="bby-cy-jL2"/>
+                <outlet property="nameLabel" destination="4QK-he-2aD" id="nO2-wY-AA8"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bridgeIcon" width="144" height="144"/>
+    </resources>
+</document>

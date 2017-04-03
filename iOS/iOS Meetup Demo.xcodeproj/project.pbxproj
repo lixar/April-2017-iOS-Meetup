@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A01B91D1E9E90E0004E7075 /* ParticleCloudPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A01B91C1E9E90E0004E7075 /* ParticleCloudPresenter.swift */; };
+		21704B2E6EA93EA9B7FEC9D7 /* Pods_iOS_Meetup_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144EDF7BBB596F339A9CA045 /* Pods_iOS_Meetup_DemoTests.framework */; };
+		489DC62C9D470B218477E667 /* Pods_iOS_Meetup_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160FA3A48A19555C36181D4A /* Pods_iOS_Meetup_Demo.framework */; };
+		CE8FA9EF1E93028F00B31831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FA9EE1E93028F00B31831 /* AppDelegate.swift */; };
+		CE8FA9F41E93028F00B31831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8FA9F21E93028F00B31831 /* Main.storyboard */; };
+		CE8FA9F91E93028F00B31831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8FA9F81E93028F00B31831 /* Assets.xcassets */; };
+		CE8FA9FC1E93028F00B31831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8FA9FA1E93028F00B31831 /* LaunchScreen.storyboard */; };
+		DC117AA81EA7CC6300B3C32A /* TemperatureColorConverterSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC117AA71EA7CC6300B3C32A /* TemperatureColorConverterSpecs.swift */; };
+		DC117AAA1EA7CEE900B3C32A /* UIColorExtensionSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC117AA91EA7CEE900B3C32A /* UIColorExtensionSpecs.swift */; };
+		DC117AAC1EA7D3D300B3C32A /* SettingsSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC117AAB1EA7D3D300B3C32A /* SettingsSpecs.swift */; };
+		DC8A4E4F1EA7C25C00488FA4 /* GetPalettesSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A4E4E1EA7C25C00488FA4 /* GetPalettesSpecs.swift */; };
+		EF0314AB1E9EEFB600251B4A /* BridgeAccessConfigHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0314AA1E9EEFB600251B4A /* BridgeAccessConfigHelper.swift */; };
+		EF0314AD1E9EFA7B00251B4A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0314AC1E9EFA7B00251B4A /* UIColorExtension.swift */; };
+		EF41AB4A1E9D93420021437A /* BridgeFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41AB481E9D93420021437A /* BridgeFinderViewController.swift */; };
+		EF41AB4B1E9D93420021437A /* BridgeFinderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF41AB491E9D93420021437A /* BridgeFinderViewController.xib */; };
+		EF41AB4D1E9D93670021437A /* BridgeFinderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41AB4C1E9D93660021437A /* BridgeFinderPresenter.swift */; };
+		EF41AB501E9D9B620021437A /* BridgeFinderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41AB4E1E9D9B620021437A /* BridgeFinderTableViewCell.swift */; };
+		EF41AB511E9D9B620021437A /* BridgeFinderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF41AB4F1E9D9B620021437A /* BridgeFinderTableViewCell.xib */; };
+		EF41AB551E9DAC690021437A /* BridgeAuthenticatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41AB531E9DAC690021437A /* BridgeAuthenticatorViewController.swift */; };
+		EF41AB561E9DAC690021437A /* BridgeAuthenticatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF41AB541E9DAC690021437A /* BridgeAuthenticatorViewController.xib */; };
+		EF41AB581E9DAC790021437A /* BridgeAuthenticatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41AB571E9DAC790021437A /* BridgeAuthenticatorPresenter.swift */; };
+		EF41DEA71E9F011E00413704 /* TemperatureColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41DEA61E9F011E00413704 /* TemperatureColorConverter.swift */; };
+		EF4832FC1EA03FDD00F59562 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4832FB1EA03FDD00F59562 /* Settings.swift */; };
+		EF4832FF1EA042C900F59562 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4832FE1EA042C900F59562 /* HomeViewController.swift */; };
+		EF4833011EA0719900F59562 /* HuePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4833001EA0719900F59562 /* HuePresenter.swift */; };
+		EFA0D3941EA6A12C00423011 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0D3931EA6A12C00423011 /* Palette.swift */; };
+		EFA0D3961EA6A2D700423011 /* GetPalettes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0D3951EA6A2D700423011 /* GetPalettes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8FAA031E93029000B31831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8FA9E31E93028F00B31831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8FA9EA1E93028F00B31831;
+			remoteInfo = "iOS Meetup Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144EDF7BBB596F339A9CA045 /* Pods_iOS_Meetup_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Meetup_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		160FA3A48A19555C36181D4A /* Pods_iOS_Meetup_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Meetup_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A01B91C1E9E90E0004E7075 /* ParticleCloudPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleCloudPresenter.swift; sourceTree = "<group>"; };
+		23D1519A134E06D12CFA35C4 /* Pods-iOS Meetup DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Meetup DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Meetup DemoTests/Pods-iOS Meetup DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FB41BDD5D2DB457E794D246 /* Pods_iOS_Meetup_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Meetup_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A7C6DDCE4894924174F418 /* Pods-iOS Meetup Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Meetup Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Meetup Demo/Pods-iOS Meetup Demo.release.xcconfig"; sourceTree = "<group>"; };
+		C742FDC4DBEBD9F76F158261 /* Pods-iOS Meetup Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Meetup Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Meetup Demo/Pods-iOS Meetup Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8FA9EB1E93028F00B31831 /* iOS Meetup Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Meetup Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8FA9EE1E93028F00B31831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE8FA9F31E93028F00B31831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8FA9F81E93028F00B31831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8FA9FB1E93028F00B31831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8FA9FD1E93028F00B31831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8FAA021E93029000B31831 /* iOS Meetup DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Meetup DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8FAA081E93029000B31831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4017BAF0A24683BFC533A27 /* Pods-iOS Meetup DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Meetup DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Meetup DemoTests/Pods-iOS Meetup DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC117AA71EA7CC6300B3C32A /* TemperatureColorConverterSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureColorConverterSpecs.swift; sourceTree = "<group>"; };
+		DC117AA91EA7CEE900B3C32A /* UIColorExtensionSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensionSpecs.swift; sourceTree = "<group>"; };
+		DC117AAB1EA7D3D300B3C32A /* SettingsSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSpecs.swift; sourceTree = "<group>"; };
+		DC8A4E4E1EA7C25C00488FA4 /* GetPalettesSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPalettesSpecs.swift; sourceTree = "<group>"; };
+		EF0314AA1E9EEFB600251B4A /* BridgeAccessConfigHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeAccessConfigHelper.swift; sourceTree = "<group>"; };
+		EF0314AC1E9EFA7B00251B4A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		EF41AB481E9D93420021437A /* BridgeFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = BridgeFinderViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		EF41AB491E9D93420021437A /* BridgeFinderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridgeFinderViewController.xib; sourceTree = "<group>"; };
+		EF41AB4C1E9D93660021437A /* BridgeFinderPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeFinderPresenter.swift; sourceTree = "<group>"; };
+		EF41AB4E1E9D9B620021437A /* BridgeFinderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeFinderTableViewCell.swift; sourceTree = "<group>"; };
+		EF41AB4F1E9D9B620021437A /* BridgeFinderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridgeFinderTableViewCell.xib; sourceTree = "<group>"; };
+		EF41AB531E9DAC690021437A /* BridgeAuthenticatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeAuthenticatorViewController.swift; sourceTree = "<group>"; };
+		EF41AB541E9DAC690021437A /* BridgeAuthenticatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridgeAuthenticatorViewController.xib; sourceTree = "<group>"; };
+		EF41AB571E9DAC790021437A /* BridgeAuthenticatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeAuthenticatorPresenter.swift; sourceTree = "<group>"; };
+		EF41DEA61E9F011E00413704 /* TemperatureColorConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureColorConverter.swift; sourceTree = "<group>"; };
+		EF4832FB1EA03FDD00F59562 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		EF4832FE1EA042C900F59562 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EF4833001EA0719900F59562 /* HuePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = HuePresenter.swift; sourceTree = "<group>"; tabWidth = 4; };
+		EFA0D3931EA6A12C00423011 /* Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		EFA0D3951EA6A2D700423011 /* GetPalettes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPalettes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8FA9E81E93028F00B31831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489DC62C9D470B218477E667 /* Pods_iOS_Meetup_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8FA9FF1E93029000B31831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21704B2E6EA93EA9B7FEC9D7 /* Pods_iOS_Meetup_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E90D09094E9580E3CB41096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				160FA3A48A19555C36181D4A /* Pods_iOS_Meetup_Demo.framework */,
+				144EDF7BBB596F339A9CA045 /* Pods_iOS_Meetup_DemoTests.framework */,
+				5FB41BDD5D2DB457E794D246 /* Pods_iOS_Meetup_DemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A01B91B1E9E8F7D004E7075 /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				1A01B91C1E9E90E0004E7075 /* ParticleCloudPresenter.swift */,
+			);
+			name = Particle;
+			sourceTree = "<group>";
+		};
+		CE8FA9E21E93028F00B31831 = {
+			isa = PBXGroup;
+			children = (
+				CE8FA9ED1E93028F00B31831 /* iOS Meetup Demo */,
+				CE8FAA051E93029000B31831 /* iOS Meetup DemoTests */,
+				CE8FA9EC1E93028F00B31831 /* Products */,
+				EF3362F973A92862C166AABA /* Pods */,
+				0E90D09094E9580E3CB41096 /* Frameworks */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		CE8FA9EC1E93028F00B31831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8FA9EB1E93028F00B31831 /* iOS Meetup Demo.app */,
+				CE8FAA021E93029000B31831 /* iOS Meetup DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8FA9ED1E93028F00B31831 /* iOS Meetup Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EF41AB521E9DAC3B0021437A /* Bridge Authenticator */,
+				EF41AB471E9D93160021437A /* Bridge Finder */,
+				EF0314A91E9EEF2B00251B4A /* Helpers */,
+				EF4832FD1EA042AF00F59562 /* Home */,
+				1A01B91B1E9E8F7D004E7075 /* Particle */,
+				EFA0D3921EA6A10100423011 /* Palette */,
+				CE8FA9EE1E93028F00B31831 /* AppDelegate.swift */,
+				CE8FA9F21E93028F00B31831 /* Main.storyboard */,
+				CE8FA9F81E93028F00B31831 /* Assets.xcassets */,
+				CE8FA9FA1E93028F00B31831 /* LaunchScreen.storyboard */,
+				CE8FA9FD1E93028F00B31831 /* Info.plist */,
+			);
+			path = "iOS Meetup Demo";
+			sourceTree = "<group>";
+		};
+		CE8FAA051E93029000B31831 /* iOS Meetup DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8FAA081E93029000B31831 /* Info.plist */,
+				DC8A4E4E1EA7C25C00488FA4 /* GetPalettesSpecs.swift */,
+				DC117AA71EA7CC6300B3C32A /* TemperatureColorConverterSpecs.swift */,
+				DC117AA91EA7CEE900B3C32A /* UIColorExtensionSpecs.swift */,
+				DC117AAB1EA7D3D300B3C32A /* SettingsSpecs.swift */,
+			);
+			path = "iOS Meetup DemoTests";
+			sourceTree = "<group>";
+		};
+		EF0314A91E9EEF2B00251B4A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EF0314AA1E9EEFB600251B4A /* BridgeAccessConfigHelper.swift */,
+				EF4832FB1EA03FDD00F59562 /* Settings.swift */,
+				EF41DEA61E9F011E00413704 /* TemperatureColorConverter.swift */,
+				EF0314AC1E9EFA7B00251B4A /* UIColorExtension.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		EF3362F973A92862C166AABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C742FDC4DBEBD9F76F158261 /* Pods-iOS Meetup Demo.debug.xcconfig */,
+				84A7C6DDCE4894924174F418 /* Pods-iOS Meetup Demo.release.xcconfig */,
+				D4017BAF0A24683BFC533A27 /* Pods-iOS Meetup DemoTests.debug.xcconfig */,
+				23D1519A134E06D12CFA35C4 /* Pods-iOS Meetup DemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF41AB471E9D93160021437A /* Bridge Finder */ = {
+			isa = PBXGroup;
+			children = (
+				EF41AB4C1E9D93660021437A /* BridgeFinderPresenter.swift */,
+				EF41AB481E9D93420021437A /* BridgeFinderViewController.swift */,
+				EF41AB491E9D93420021437A /* BridgeFinderViewController.xib */,
+				EF41AB4E1E9D9B620021437A /* BridgeFinderTableViewCell.swift */,
+				EF41AB4F1E9D9B620021437A /* BridgeFinderTableViewCell.xib */,
+			);
+			name = "Bridge Finder";
+			sourceTree = "<group>";
+		};
+		EF41AB521E9DAC3B0021437A /* Bridge Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				EF41AB571E9DAC790021437A /* BridgeAuthenticatorPresenter.swift */,
+				EF41AB531E9DAC690021437A /* BridgeAuthenticatorViewController.swift */,
+				EF41AB541E9DAC690021437A /* BridgeAuthenticatorViewController.xib */,
+			);
+			name = "Bridge Authenticator";
+			sourceTree = "<group>";
+		};
+		EF4832FD1EA042AF00F59562 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF4832FE1EA042C900F59562 /* HomeViewController.swift */,
+				EF4833001EA0719900F59562 /* HuePresenter.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		EFA0D3921EA6A10100423011 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				EFA0D3951EA6A2D700423011 /* GetPalettes.swift */,
+				EFA0D3931EA6A12C00423011 /* Palette.swift */,
+			);
+			name = Palette;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8FA9EA1E93028F00B31831 /* iOS Meetup Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8FAA161E93029000B31831 /* Build configuration list for PBXNativeTarget "iOS Meetup Demo" */;
+			buildPhases = (
+				BD58FF5BFB2328493F2F649E /* [CP] Check Pods Manifest.lock */,
+				4F718BB21EA12CAA008FCA11 /* Run SwiftLint */,
+				CE8FA9E71E93028F00B31831 /* Sources */,
+				CE8FA9E81E93028F00B31831 /* Frameworks */,
+				CE8FA9E91E93028F00B31831 /* Resources */,
+				B0CD485BB5D437ED571CF05B /* [CP] Embed Pods Frameworks */,
+				23A2FCE0BA084BACA0BF17C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Meetup Demo";
+			productName = "iOS Meetup Demo";
+			productReference = CE8FA9EB1E93028F00B31831 /* iOS Meetup Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8FAA011E93029000B31831 /* iOS Meetup DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8FAA191E93029000B31831 /* Build configuration list for PBXNativeTarget "iOS Meetup DemoTests" */;
+			buildPhases = (
+				D8CFA7EF1FDCF9C1144ECB81 /* [CP] Check Pods Manifest.lock */,
+				CE8FA9FE1E93029000B31831 /* Sources */,
+				CE8FA9FF1E93029000B31831 /* Frameworks */,
+				CE8FAA001E93029000B31831 /* Resources */,
+				D57E8E10B0C95891481F389B /* [CP] Embed Pods Frameworks */,
+				025A1618F9C39B39DDC665EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8FAA041E93029000B31831 /* PBXTargetDependency */,
+			);
+			name = "iOS Meetup DemoTests";
+			productName = "iOS Meetup DemoTests";
+			productReference = CE8FAA021E93029000B31831 /* iOS Meetup DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8FA9E31E93028F00B31831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lixar I.T.";
+				TargetAttributes = {
+					CE8FA9EA1E93028F00B31831 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C5258MET3L;
+						ProvisioningStyle = Automatic;
+					};
+					CE8FAA011E93029000B31831 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C5258MET3L;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE8FA9EA1E93028F00B31831;
+					};
+				};
+			};
+			buildConfigurationList = CE8FA9E61E93028F00B31831 /* Build configuration list for PBXProject "iOS Meetup Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8FA9E21E93028F00B31831;
+			productRefGroup = CE8FA9EC1E93028F00B31831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8FA9EA1E93028F00B31831 /* iOS Meetup Demo */,
+				CE8FAA011E93029000B31831 /* iOS Meetup DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8FA9E91E93028F00B31831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8FA9FC1E93028F00B31831 /* LaunchScreen.storyboard in Resources */,
+				EF41AB561E9DAC690021437A /* BridgeAuthenticatorViewController.xib in Resources */,
+				EF41AB511E9D9B620021437A /* BridgeFinderTableViewCell.xib in Resources */,
+				CE8FA9F91E93028F00B31831 /* Assets.xcassets in Resources */,
+				CE8FA9F41E93028F00B31831 /* Main.storyboard in Resources */,
+				EF41AB4B1E9D93420021437A /* BridgeFinderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8FAA001E93029000B31831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025A1618F9C39B39DDC665EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Meetup DemoTests/Pods-iOS Meetup DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23A2FCE0BA084BACA0BF17C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Meetup Demo/Pods-iOS Meetup Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F718BB21EA12CAA008FCA11 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		B0CD485BB5D437ED571CF05B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Meetup Demo/Pods-iOS Meetup Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD58FF5BFB2328493F2F649E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D57E8E10B0C95891481F389B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Meetup DemoTests/Pods-iOS Meetup DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CFA7EF1FDCF9C1144ECB81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8FA9E71E93028F00B31831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF41AB501E9D9B620021437A /* BridgeFinderTableViewCell.swift in Sources */,
+				EF41DEA71E9F011E00413704 /* TemperatureColorConverter.swift in Sources */,
+				EF41AB581E9DAC790021437A /* BridgeAuthenticatorPresenter.swift in Sources */,
+				EF41AB4D1E9D93670021437A /* BridgeFinderPresenter.swift in Sources */,
+				EFA0D3961EA6A2D700423011 /* GetPalettes.swift in Sources */,
+				EF0314AB1E9EEFB600251B4A /* BridgeAccessConfigHelper.swift in Sources */,
+				EF41AB551E9DAC690021437A /* BridgeAuthenticatorViewController.swift in Sources */,
+				EF4832FC1EA03FDD00F59562 /* Settings.swift in Sources */,
+				CE8FA9EF1E93028F00B31831 /* AppDelegate.swift in Sources */,
+				EF4833011EA0719900F59562 /* HuePresenter.swift in Sources */,
+				EF0314AD1E9EFA7B00251B4A /* UIColorExtension.swift in Sources */,
+				EF41AB4A1E9D93420021437A /* BridgeFinderViewController.swift in Sources */,
+				EF4832FF1EA042C900F59562 /* HomeViewController.swift in Sources */,
+				1A01B91D1E9E90E0004E7075 /* ParticleCloudPresenter.swift in Sources */,
+				EFA0D3941EA6A12C00423011 /* Palette.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8FA9FE1E93029000B31831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC117AA81EA7CC6300B3C32A /* TemperatureColorConverterSpecs.swift in Sources */,
+				DC117AAC1EA7D3D300B3C32A /* SettingsSpecs.swift in Sources */,
+				DC8A4E4F1EA7C25C00488FA4 /* GetPalettesSpecs.swift in Sources */,
+				DC117AAA1EA7CEE900B3C32A /* UIColorExtensionSpecs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8FAA041E93029000B31831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8FA9EA1E93028F00B31831 /* iOS Meetup Demo */;
+			targetProxy = CE8FAA031E93029000B31831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8FA9F21E93028F00B31831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8FA9F31E93028F00B31831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE8FA9FA1E93028F00B31831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8FA9FB1E93028F00B31831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8FAA141E93029000B31831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8FAA151E93029000B31831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8FAA171E93029000B31831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C742FDC4DBEBD9F76F158261 /* Pods-iOS Meetup Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C5258MET3L;
+				INFOPLIST_FILE = "iOS Meetup Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixar.iOS-Meetup-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE8FAA181E93029000B31831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A7C6DDCE4894924174F418 /* Pods-iOS Meetup Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C5258MET3L;
+				INFOPLIST_FILE = "iOS Meetup Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixar.iOS-Meetup-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE8FAA1A1E93029000B31831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4017BAF0A24683BFC533A27 /* Pods-iOS Meetup DemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = C5258MET3L;
+				INFOPLIST_FILE = "iOS Meetup DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixar.iOS-Meetup-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Meetup Demo.app/iOS Meetup Demo";
+			};
+			name = Debug;
+		};
+		CE8FAA1B1E93029000B31831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D1519A134E06D12CFA35C4 /* Pods-iOS Meetup DemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = C5258MET3L;
+				INFOPLIST_FILE = "iOS Meetup DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixar.iOS-Meetup-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Meetup Demo.app/iOS Meetup Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8FA9E61E93028F00B31831 /* Build configuration list for PBXProject "iOS Meetup Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8FAA141E93029000B31831 /* Debug */,
+				CE8FAA151E93029000B31831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8FAA161E93029000B31831 /* Build configuration list for PBXNativeTarget "iOS Meetup Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8FAA171E93029000B31831 /* Debug */,
+				CE8FAA181E93029000B31831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8FAA191E93029000B31831 /* Build configuration list for PBXNativeTarget "iOS Meetup DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8FAA1A1E93029000B31831 /* Debug */,
+				CE8FAA1B1E93029000B31831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8FA9E31E93028F00B31831 /* Project object */;
+}

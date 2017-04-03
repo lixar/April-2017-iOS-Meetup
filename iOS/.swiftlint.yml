@@ -1,0 +1,17 @@
+enabled_rules:
+- empty_count
+- conditional_returns_on_newline
+- force_unwrapping
+- closure_spacing
+- redundant_nil_coalescing
+
+disabled_rules:
+- type_name
+
+excluded:
+- iOS Meetup DemoTests
+- Pods
+
+variable_name:
+  excluded:
+    - id

@@ -1,0 +1,22 @@
+target 'iOS Meetup Demo' do
+  use_frameworks!
+  inhibit_all_warnings!
+
+  # Credentials
+  plugin 'cocoapods-keys', {
+    :keys => [
+      "particleUsername",
+      "particlePassword"
+    ]
+  }
+
+  pod 'SwiftyHue', '0.2.4'
+  pod 'SwiftLint', '0.18.1'
+  pod 'Particle-SDK'
+
+  target 'iOS Meetup DemoTests' do
+    inherit! :search_paths
+    pod 'Quick', '1.1.0'
+    pod 'Nimble', '6.1.0'
+  end
+end
